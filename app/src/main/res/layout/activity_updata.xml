@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECA19D9D"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/eName"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/aEmail"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="email" />
+
+    <EditText
+
+        android:id="@+id/iPhone"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Phone" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:onClick="Update"
+        android:text="Update"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+
+</LinearLayout>
